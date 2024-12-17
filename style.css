@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+#container {
+    font-family: "Sour Gummy", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(123, 30, 236);
+}
+
+#game{
+    width: 30rem;
+    height: 30rem;;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#game span {
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(134, 238, 86);
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.winner {
+    font-size: 5rem;
+    align-content: center;
+    text-align: center;
+    transition: all 4s ease-in-out;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-color: rgb(228, 167, 219);
+    font-size: 1rem;
+}
